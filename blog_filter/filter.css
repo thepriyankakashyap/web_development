@@ -1,0 +1,37 @@
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  
+  .showFiltered {
+    display: block;
+  }
+  
+  .blogcontainer {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btnFilter {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btnFilter:hover {
+    background-color: #ddd;
+  }
+  
+  .btnFilter.active {
+    background-color: #666;
+    color: white;
+  }
